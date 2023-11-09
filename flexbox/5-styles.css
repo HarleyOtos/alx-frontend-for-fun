@@ -354,10 +354,6 @@ ul.row {
 /* Navbar
       ============================= */
 
-.navbar-menu {
-  float: right;
-}
-
 .nav {
   margin: 0;
   padding: 0;
@@ -404,18 +400,17 @@ ul.row {
 /* Header
       ============================= */
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header {
   padding: var(--header-padding);
   position: relative;
   z-index: 3;
   background: transparent !important;
 }
-
-.header-container {
-  display: flex;
-  justify-content: space-between;
-}
-
 
 /* Footer
       ============================= */
